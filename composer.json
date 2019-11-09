@@ -1,0 +1,46 @@
+{
+    "name": "jscdev/yii-bs4",
+    "description": "Rewrite The Twitter Bootstrap 4 extension for the Yii framework",
+    "keywords": ["yii2", "bootstrap", "bootstrap4"],
+    "type": "yii2-extension",
+    "support": {
+        "issues": "https://github.com/hadyjsc/yii-bs4/issues",
+        "source": "https://github.com/hadyjsc/yii-bs4"
+    },
+    "authors": [
+        {
+            "name": "Hady Eka Saputra",
+            "email": "service.hady@gmail.com",
+            "homepage": "http://www.yiiframework.com/"
+        },
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0",
+        "npm-asset/bootstrap": "^4.3"
+    },
+    "require-dev": {
+        "yiisoft/yii2-coding-standards": "~2.0",
+        "phpunit/phpunit": "<7"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "jscdev\\yii-bs4\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "yiiunit\\extensions\\yii-bs4\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
