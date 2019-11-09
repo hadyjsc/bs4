@@ -14,19 +14,19 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist hadyjsc/jscbs4
+php composer.phar require --prefer-dist jscdev/jscbs4
 
 ```
 or
 ```
-composer require --prefer-dist hadyjsc/jscbs4
+composer require --prefer-dist jscdev/jscbs4
 
 ```
 
 or add
 
 ```
-"hadyjsc/jscbs4": "~2.0.6"
+"jscdev/jscbs4": "~2.0.6"
 ```
 
 to the require section of your `composer.json` file.
