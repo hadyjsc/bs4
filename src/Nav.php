@@ -17,30 +17,51 @@ use Yii;
  * For example:
  *
  * ```php
- * echo Nav::widget([
- *     'items' => [
- *         [
- *             'label' => 'Home',
- *             'url' => ['site/index'],
- *             'linkOptions' => [...],
- *         ],
- *         [
- *             'label' => 'Dropdown',
- *             'items' => [
- *                  ['label' => 'Level 1 - Dropdown A', 'url' => '#'],
- *                  '<div class="dropdown-divider"></div>',
- *                  '<div class="dropdown-header">Dropdown Header</div>',
- *                  ['label' => 'Level 1 - Dropdown B', 'url' => '#'],
- *             ],
- *         ],
- *         [
- *             'label' => 'Login',
- *             'url' => ['site/login'],
- *             'visible' => Yii::$app->user->isGuest
- *         ],
- *     ],
- *     'options' => ['class' =>'nav-pills'], // set this to nav-tab to get tab-styled navigation
- * ]);
+ *   echo Nav::widget([
+ *       'options' => [
+ *           'class' => 'nav nav-primary',
+ *       ],
+ *       'encodeLabels' => false,
+ *       'items' => [
+ *           [
+ *               'label' =>  '<i class="fas fa-home"></i><p>'.Yii::t('app', 'Dashboard').'</p>', 
+ *               'url' => ['/app/index'],
+ *           ],
+ *           [
+ *               'label' => '<i class="far fa-chart-bar"></i><p>Registration</p><span class="caret"></span>',
+ *               'url' => '#registration',
+ *               'options' => [
+ *                   'class'=>'nav-item',
+ *               ],
+ *               'linkOptions' => [
+ *                   'data-toggle' => 'collapse',
+ *                   'class'=>'',
+ *               ],
+ *               'dropdownOptions' => [
+ *                   'class' =>'collapse',
+ *                   'id'=>'registration',
+ *               ],
+ *               'items' => [
+ *                   [
+ *                     'label' => '<span class="sub-item">User Management</span>', 
+ *                     'url' => ['user/index'],
+ *                   ],
+ *                   [
+ *                     'label' => '<span class="sub-item">Building Management</span>', 
+ *                     'url' => ['user/index'],
+ *                   ],
+ *                   [
+ *                     'label' => '<span class="sub-item">Level Management</span>', 
+ *                     'url' => ['user/index'],
+ *                   ],
+ *                   [
+ *                     'label' => '<span class="sub-item">Room Management</span>', 
+ *                     'url' => ['user/index'],
+ *                   ],
+ *               ],
+ *           ],
+ *       ],
+ *   ]);
  * ```
  *
  * Note: Multilevel dropdowns beyond Level 1 are not supported in Bootstrap 3.
