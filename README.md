@@ -14,19 +14,14 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist jscdev/jscbs4
-
-```
-or
-```
-composer require "jscdev/jscbs4": "*"
+composer require "jscdev/jscbs4 @dev"
 
 ```
 
 or add
 
 ```
-"jscdev/jscbs4": "~2.0.6"
+"jscdev/jscbs4": "@dev"
 ```
 
 to the require section of your `composer.json` file.

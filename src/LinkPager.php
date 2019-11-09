@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace jsc\bs4;
+namespace jscdev\bs4;
 
 use yii\base\InvalidConfigException;
 use yii\data\Pagination;
@@ -23,7 +23,7 @@ use yii\helpers\ArrayHelper;
  * ```php
  * 'container' => [
  *    'definitions' => [
- *       \yii\widgets\LinkPager::class => \jsc\bs4\LinkPager::class,
+ *       \yii\widgets\LinkPager::class => \jscdev\bs4\LinkPager::class,
  *    ],
  * ],
  * ```

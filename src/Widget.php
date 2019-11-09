@@ -5,10 +5,10 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace jsc\bs4;
+namespace jscdev\bs4;
 
 /**
- * \jsc\bs4\Widget is the base class for all bootstrap widgets.
+ * \jscdev\bs4\Widget is the base class for all bootstrap widgets.
  *
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @author Qiang Xue <qiang.xue@gmail.com>

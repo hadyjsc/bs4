@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace jsc\bs4;
+namespace jscdev\bs4;
 
 use yii\helpers\ArrayHelper;
 use yii\helpers\Url;
@@ -92,7 +92,7 @@ class ButtonDropdown extends Widget
     /**
      * @var string name of a class to use for rendering dropdowns withing this widget. Defaults to [[Dropdown]].
      */
-    public $dropdownClass = 'jsc\bs4\Dropdown';
+    public $dropdownClass = 'jscdev\bs4\Dropdown';
     /**
      * @var bool whether to render the container using the [[options]] as HTML attributes. If set to `false`,
      * the container element enclosing the button and dropdown will NOT be rendered.

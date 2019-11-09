@@ -5,19 +5,19 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace jsc\bs4;
+namespace jscdev\bs4;
 
 use yii\base\InvalidConfigException;
 
 /**
  * ToggleButtonGroup allows rendering form inputs Checkbox/Radio toggle button groups.
  *
- * You can use this widget in an [[jsc\bs4\ActiveForm|ActiveForm]] using the [[yii\widgets\ActiveField::widget()|widget()]]
+ * You can use this widget in an [[jscdev\bs4\ActiveForm|ActiveForm]] using the [[yii\widgets\ActiveField::widget()|widget()]]
  * method, for example like this:
  *
  * ```php
- * <?= $form->field($model, 'item_id')->widget(\jsc\bs4\ToggleButtonGroup::class, [
- *     'type' => \jsc\bs4\ToggleButtonGroup::TYPE_CHECKBOX
+ * <?= $form->field($model, 'item_id')->widget(\jscdev\bs4\ToggleButtonGroup::class, [
+ *     'type' => \jscdev\bs4\ToggleButtonGroup::TYPE_CHECKBOX
  *     'items' => [
  *         'fooValue' => 'BarLabel',
  *         'barValue' => 'BazLabel'

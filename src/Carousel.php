@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace jsc\bs4;
+namespace jscdev\bs4;
 
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;

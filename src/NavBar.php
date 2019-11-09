@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace jsc\bs4;
+namespace jscdev\bs4;
 
 use Yii;
 use yii\helpers\ArrayHelper;
@@ -18,8 +18,8 @@ use yii\helpers\ArrayHelper;
  * or [[\yii\widgets\Menu]] to build up such content. For example,
  *
  * ```php
- * use jsc\bs4\NavBar;
- * use jsc\bs4\Nav;
+ * use jscdev\bs4\NavBar;
+ * use jscdev\bs4\Nav;
  *
  * NavBar::begin(['brandLabel' => 'NavBar Test']);
  * echo Nav::widget([

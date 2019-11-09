@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace jsc\bs4;
+namespace jscdev\bs4;
 
 /**
  * ButtonToolbar Combines sets of button groups into button toolbars for more complex components.

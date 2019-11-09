@@ -5,8 +5,8 @@
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/hadyjsc/yii-bs4/issues",
-        "source": "https://github.com/hadyjsc/yii-bs4"
+        "issues": "https://github.com/hadyjsc/yii2-boostrap4/issues",
+        "source": "https://github.com/hadyjsc/yii2-boostrap4"
     },
     "authors": [
         {
@@ -15,8 +15,7 @@
             "homepage": "http://www.yiiframework.com/"
         }
     ],
-    "require": {
-    },
+    "require": {},
     "repositories": [
         {
             "type": "composer",
