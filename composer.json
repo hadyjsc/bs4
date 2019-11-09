@@ -31,7 +31,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Jscbs4": "src"
+            "Jscbs4\\": "src"
         }
     },
     "extra": {
