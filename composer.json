@@ -16,12 +16,6 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0",
-        "npm-asset/bootstrap": "^4.3"
-    },
-    "require-dev": {
-        "yiisoft/yii2-coding-standards": "~2.0",
-        "phpunit/phpunit": "<7"
     },
     "repositories": [
         {
@@ -32,11 +26,6 @@
     "autoload": {
         "psr-4": {
             "jscdev\\bs4\\": "src"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
         }
     }
 }

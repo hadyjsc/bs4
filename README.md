@@ -19,7 +19,7 @@ php composer.phar require --prefer-dist jscdev/jscbs4
 ```
 or
 ```
-composer require --prefer-dist jscdev/jscbs4
+composer require "jscdev/jscbs4": "*"
 
 ```
 
