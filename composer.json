@@ -1,5 +1,5 @@
 {
-    "name": "jscdev/jsc-bs4",
+    "name": "jscdev/jscbs4",
     "description": "Rewrite The Twitter Bootstrap 4 extension for the Yii framework",
     "keywords": ["yii2", "bootstrap", "bootstrap4"],
     "type": "yii2-extension",
@@ -31,7 +31,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "jsc\\bs4\\": "src"
+            "Jscbs4": "src"
         }
     },
     "extra": {

@@ -14,7 +14,8 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist hadyjsc/jsc-bs4
+php composer.phar require --prefer-dist hadyjsc/jsc-bs4 or composer require --prefer-dist hadyjsc/jsc-bs4
+
 ```
 
 or add
