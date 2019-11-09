@@ -3,6 +3,7 @@
     "description": "Rewrite The Twitter Bootstrap 4 extension for the Yii framework",
     "keywords": ["yii2", "bootstrap", "bootstrap4"],
     "type": "yii2-extension",
+    "license": "BSD-3-Clause",
     "support": {
         "issues": "https://github.com/hadyjsc/yii-bs4/issues",
         "source": "https://github.com/hadyjsc/yii-bs4"
