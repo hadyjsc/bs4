@@ -14,14 +14,14 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require "jscdev/jscbs4 @dev"
+composer require "jscdev/bs4 @dev"
 
 ```
 
 or add
 
 ```
-"jscdev/jscbs4": "@dev"
+"jscdev/bs4": "@dev"
 ```
 
 to the require section of your `composer.json` file.
